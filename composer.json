@@ -1,0 +1,19 @@
+{
+    "name": "ryan/projeto-bot",
+    "description": "Projeto bot para o servidor discord",
+    "autoload": {
+        "psr-4": {
+            "Ryan\\ProjetoBot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "FAGOS",
+            "email": "hurleypvp1@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "team-reflex/discord-php": "^7.3"
+    }
+}
